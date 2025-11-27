@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 const ArticleSection = () => {
   return (
     <section id="about" className="py-16 bg-background">
@@ -49,12 +47,12 @@ const ArticleSection = () => {
                 </tbody>
               </table>
             </div>
-            <div className="flex flex-wrap gap-2">
-              <Button variant="outline" size="sm">Classic Slots</Button>
-              <Button variant="outline" size="sm">Video Slots</Button>
-              <Button variant="outline" size="sm">Jackpot Games</Button>
-              <Button variant="outline" size="sm">Megaways</Button>
-            </div>
+            <ul className="list-disc list-inside text-muted-foreground space-y-1">
+              <li>Wild symbols substitute for other symbols to create wins</li>
+              <li>Scatter symbols trigger bonus features and free spins</li>
+              <li>Multipliers increase your winnings by 2x, 3x or more</li>
+              <li>Bonus rounds offer interactive mini-games with prizes</li>
+            </ul>
           </div>
 
           <div className="bg-card p-6 rounded-[25px] shadow-[0_4px_20px_hsla(45,100%,50%,0.1)]">
@@ -93,12 +91,12 @@ const ArticleSection = () => {
                 </tbody>
               </table>
             </div>
-            <div className="flex flex-wrap gap-2">
-              <Button variant="outline" size="sm">Welcome Offers</Button>
-              <Button variant="outline" size="sm">Free Spins</Button>
-              <Button variant="outline" size="sm">Reload Bonuses</Button>
-              <Button variant="outline" size="sm">VIP Rewards</Button>
-            </div>
+            <ul className="list-disc list-inside text-muted-foreground space-y-1">
+              <li>Always read the terms and conditions before claiming</li>
+              <li>Check wagering requirements - lower is better</li>
+              <li>Look for no-deposit bonuses to try risk-free</li>
+              <li>Join VIP programs for exclusive rewards</li>
+            </ul>
           </div>
 
           <div className="bg-card p-6 rounded-[25px] shadow-[0_4px_20px_hsla(45,100%,50%,0.1)]">
@@ -137,12 +135,12 @@ const ArticleSection = () => {
                 </tbody>
               </table>
             </div>
-            <div className="flex flex-wrap gap-2">
-              <Button variant="outline" size="sm">Set Limits</Button>
-              <Button variant="outline" size="sm">Self-Exclude</Button>
-              <Button variant="outline" size="sm">Get Help</Button>
-              <Button variant="outline" size="sm">GamCare</Button>
-            </div>
+            <ul className="list-disc list-inside text-muted-foreground space-y-1">
+              <li>Set daily, weekly, or monthly deposit limits</li>
+              <li>Never gamble when stressed or emotional</li>
+              <li>Take regular breaks during gaming sessions</li>
+              <li>Seek help if gambling becomes a problem</li>
+            </ul>
           </div>
         </article>
       </div>
