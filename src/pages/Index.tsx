@@ -2,10 +2,10 @@ import Header from "@/components/Header";
 import TableOfContents from "@/components/TableOfContents";
 import HeroBanner from "@/components/HeroBanner";
 import SlotsSection from "@/components/SlotsSection";
+import CasinoBonusesSection from "@/components/CasinoBonusesSection";
 import ArticleSection from "@/components/ArticleSection";
 import ConclusionSection from "@/components/ConclusionSection";
 import FAQSection from "@/components/FAQSection";
-import PlayButton from "@/components/PlayButton";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -16,10 +16,10 @@ const Index = () => {
       <main>
         <HeroBanner />
         <SlotsSection />
+        <CasinoBonusesSection />
         <ArticleSection />
         <ConclusionSection />
         <FAQSection />
-        <PlayButton />
       </main>
       <Footer />
     </div>
