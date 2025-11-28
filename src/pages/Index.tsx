@@ -7,6 +7,7 @@ import ArticleSection from "@/components/ArticleSection";
 import ConclusionSection from "@/components/ConclusionSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
+import BonusPopup from "@/components/BonusPopup";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         <FAQSection />
       </main>
       <Footer />
+      <BonusPopup />
     </div>
   );
 };
